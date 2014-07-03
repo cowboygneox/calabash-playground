@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144722F21965914500BD9EE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F11965914500BD9EE1 /* Foundation.framework */; };
+		144722F41965914500BD9EE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F31965914500BD9EE1 /* CoreGraphics.framework */; };
+		144722F61965914500BD9EE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F51965914500BD9EE1 /* UIKit.framework */; };
+		144722F81965914500BD9EE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
+		144722FE1965914500BD9EE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144722FC1965914500BD9EE1 /* InfoPlist.strings */; };
+		144723001965914500BD9EE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 144722FF1965914500BD9EE1 /* main.m */; };
+		144723041965914500BD9EE1 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 144723031965914500BD9EE1 /* CPAppDelegate.m */; };
+		144723071965914500BD9EE1 /* Calabash_Playground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 144723051965914500BD9EE1 /* Calabash_Playground.xcdatamodeld */; };
+		144723091965914500BD9EE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144723081965914500BD9EE1 /* Images.xcassets */; };
+		144723101965914500BD9EE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1447230F1965914500BD9EE1 /* XCTest.framework */; };
+		144723111965914500BD9EE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F11965914500BD9EE1 /* Foundation.framework */; };
+		144723121965914500BD9EE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F51965914500BD9EE1 /* UIKit.framework */; };
+		144723131965914500BD9EE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
+		1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144723191965914500BD9EE1 /* InfoPlist.strings */; };
+		1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		144723141965914500BD9EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144722E61965914500BD9EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144722ED1965914500BD9EE1;
+			remoteInfo = "Calabash Playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144722EE1965914500BD9EE1 /* Calabash Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calabash Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144722F11965914500BD9EE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		144722F31965914500BD9EE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		144722F51965914500BD9EE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		144722F71965914500BD9EE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		144722FB1965914500BD9EE1 /* Calabash Playground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calabash Playground-Info.plist"; sourceTree = "<group>"; };
+		144722FD1965914500BD9EE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		144722FF1965914500BD9EE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		144723011965914500BD9EE1 /* Calabash Playground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calabash Playground-Prefix.pch"; sourceTree = "<group>"; };
+		144723021965914500BD9EE1 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		144723031965914500BD9EE1 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		144723061965914500BD9EE1 /* Calabash_Playground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calabash_Playground.xcdatamodel; sourceTree = "<group>"; };
+		144723081965914500BD9EE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1447230E1965914500BD9EE1 /* Calabash PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calabash PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1447230F1965914500BD9EE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		144723181965914500BD9EE1 /* Calabash PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calabash PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
+		1447231A1965914500BD9EE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calabash_PlaygroundTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144722EB1965914500BD9EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144722F41965914500BD9EE1 /* CoreGraphics.framework in Frameworks */,
+				144722F81965914500BD9EE1 /* CoreData.framework in Frameworks */,
+				144722F61965914500BD9EE1 /* UIKit.framework in Frameworks */,
+				144722F21965914500BD9EE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447230B1965914500BD9EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144723101965914500BD9EE1 /* XCTest.framework in Frameworks */,
+				144723131965914500BD9EE1 /* CoreData.framework in Frameworks */,
+				144723121965914500BD9EE1 /* UIKit.framework in Frameworks */,
+				144723111965914500BD9EE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144722E51965914500BD9EE1 = {
+			isa = PBXGroup;
+			children = (
+				144722F91965914500BD9EE1 /* Calabash Playground */,
+				144723161965914500BD9EE1 /* Calabash PlaygroundTests */,
+				144722F01965914500BD9EE1 /* Frameworks */,
+				144722EF1965914500BD9EE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		144722EF1965914500BD9EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144722EE1965914500BD9EE1 /* Calabash Playground.app */,
+				1447230E1965914500BD9EE1 /* Calabash PlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		144722F01965914500BD9EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144722F11965914500BD9EE1 /* Foundation.framework */,
+				144722F31965914500BD9EE1 /* CoreGraphics.framework */,
+				144722F51965914500BD9EE1 /* UIKit.framework */,
+				144722F71965914500BD9EE1 /* CoreData.framework */,
+				1447230F1965914500BD9EE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		144722F91965914500BD9EE1 /* Calabash Playground */ = {
+			isa = PBXGroup;
+			children = (
+				144723021965914500BD9EE1 /* CPAppDelegate.h */,
+				144723031965914500BD9EE1 /* CPAppDelegate.m */,
+				144723081965914500BD9EE1 /* Images.xcassets */,
+				144723051965914500BD9EE1 /* Calabash_Playground.xcdatamodeld */,
+				144722FA1965914500BD9EE1 /* Supporting Files */,
+			);
+			path = "Calabash Playground";
+			sourceTree = "<group>";
+		};
+		144722FA1965914500BD9EE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				144722FB1965914500BD9EE1 /* Calabash Playground-Info.plist */,
+				144722FC1965914500BD9EE1 /* InfoPlist.strings */,
+				144722FF1965914500BD9EE1 /* main.m */,
+				144723011965914500BD9EE1 /* Calabash Playground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		144723161965914500BD9EE1 /* Calabash PlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */,
+				144723171965914500BD9EE1 /* Supporting Files */,
+			);
+			path = "Calabash PlaygroundTests";
+			sourceTree = "<group>";
+		};
+		144723171965914500BD9EE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				144723181965914500BD9EE1 /* Calabash PlaygroundTests-Info.plist */,
+				144723191965914500BD9EE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144722ED1965914500BD9EE1 /* Calabash Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144723201965914500BD9EE1 /* Build configuration list for PBXNativeTarget "Calabash Playground" */;
+			buildPhases = (
+				144722EA1965914500BD9EE1 /* Sources */,
+				144722EB1965914500BD9EE1 /* Frameworks */,
+				144722EC1965914500BD9EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calabash Playground";
+			productName = "Calabash Playground";
+			productReference = 144722EE1965914500BD9EE1 /* Calabash Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1447230D1965914500BD9EE1 /* Calabash PlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144723231965914500BD9EE1 /* Build configuration list for PBXNativeTarget "Calabash PlaygroundTests" */;
+			buildPhases = (
+				1447230A1965914500BD9EE1 /* Sources */,
+				1447230B1965914500BD9EE1 /* Frameworks */,
+				1447230C1965914500BD9EE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144723151965914500BD9EE1 /* PBXTargetDependency */,
+			);
+			name = "Calabash PlaygroundTests";
+			productName = "Calabash PlaygroundTests";
+			productReference = 1447230E1965914500BD9EE1 /* Calabash PlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144722E61965914500BD9EE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gneox Solutions, LLC.";
+				TargetAttributes = {
+					1447230D1965914500BD9EE1 = {
+						TestTargetID = 144722ED1965914500BD9EE1;
+					};
+				};
+			};
+			buildConfigurationList = 144722E91965914500BD9EE1 /* Build configuration list for PBXProject "Calabash Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 144722E51965914500BD9EE1;
+			productRefGroup = 144722EF1965914500BD9EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144722ED1965914500BD9EE1 /* Calabash Playground */,
+				1447230D1965914500BD9EE1 /* Calabash PlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144722EC1965914500BD9EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144722FE1965914500BD9EE1 /* InfoPlist.strings in Resources */,
+				144723091965914500BD9EE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447230C1965914500BD9EE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		144722EA1965914500BD9EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144723071965914500BD9EE1 /* Calabash_Playground.xcdatamodeld in Sources */,
+				144723001965914500BD9EE1 /* main.m in Sources */,
+				144723041965914500BD9EE1 /* CPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1447230A1965914500BD9EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144723151965914500BD9EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144722ED1965914500BD9EE1 /* Calabash Playground */;
+			targetProxy = 144723141965914500BD9EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		144722FC1965914500BD9EE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144722FD1965914500BD9EE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		144723191965914500BD9EE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1447231A1965914500BD9EE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1447231E1965914500BD9EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1447231F1965914500BD9EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		144723211965914500BD9EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				INFOPLIST_FILE = "Calabash Playground/Calabash Playground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		144723221965914500BD9EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				INFOPLIST_FILE = "Calabash Playground/Calabash Playground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		144723241965914500BD9EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calabash Playground.app/Calabash Playground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Calabash PlaygroundTests/Calabash PlaygroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		144723251965914500BD9EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calabash Playground.app/Calabash Playground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				INFOPLIST_FILE = "Calabash PlaygroundTests/Calabash PlaygroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		144722E91965914500BD9EE1 /* Build configuration list for PBXProject "Calabash Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1447231E1965914500BD9EE1 /* Debug */,
+				1447231F1965914500BD9EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144723201965914500BD9EE1 /* Build configuration list for PBXNativeTarget "Calabash Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144723211965914500BD9EE1 /* Debug */,
+				144723221965914500BD9EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		144723231965914500BD9EE1 /* Build configuration list for PBXNativeTarget "Calabash PlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144723241965914500BD9EE1 /* Debug */,
+				144723251965914500BD9EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		144723051965914500BD9EE1 /* Calabash_Playground.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				144723061965914500BD9EE1 /* Calabash_Playground.xcdatamodel */,
+			);
+			currentVersion = 144723061965914500BD9EE1 /* Calabash_Playground.xcdatamodel */;
+			path = Calabash_Playground.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 144722E61965914500BD9EE1 /* Project object */;
+}
