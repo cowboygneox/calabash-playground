@@ -22,6 +22,7 @@
 		144723131965914500BD9EE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
 		1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144723191965914500BD9EE1 /* InfoPlist.strings */; };
 		1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */; };
+		35CDF3ECC70B0C0DF074712F /* CPSimpleManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */; };
 		35CDF77DB854A92ECC202D69 /* CPCrudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */; };
 		35CDFA82393D52EAEBD8DECF /* CPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,8 @@
 		35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCrudTableViewController.m; sourceTree = "<group>"; };
 		35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRootViewController.m; sourceTree = "<group>"; };
 		35CDF91C581B92A70ED40178 /* CPCrudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCrudTableViewController.h; sourceTree = "<group>"; };
+		35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSimpleManagedObject.m; sourceTree = "<group>"; };
+		35CDFB54DC574759A7CA29A7 /* CPSimpleManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSimpleManagedObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				35CDF0A0723CB58F95F39F58 /* CPRootViewController.h */,
 				35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */,
 				35CDF91C581B92A70ED40178 /* CPCrudTableViewController.h */,
+				35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */,
+				35CDFB54DC574759A7CA29A7 /* CPSimpleManagedObject.h */,
 			);
 			path = "Calabash Playground";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				144723041965914500BD9EE1 /* CPAppDelegate.m in Sources */,
 				35CDFA82393D52EAEBD8DECF /* CPRootViewController.m in Sources */,
 				35CDF77DB854A92ECC202D69 /* CPCrudTableViewController.m in Sources */,
+				35CDF3ECC70B0C0DF074712F /* CPSimpleManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
