@@ -1,12 +1,15 @@
-Feature: Running a test
+Feature: Basic Crud 
   As an iOS developer
-  I want to have a sample feature file
-  So I can begin testing quickly
+  I often want to create and delete things in my project
 
-Scenario: Example steps
-  Given I am on the Welcome Screen
-  Then I swipe left
-  And I wait until I don't see "Please swipe left"
-  And take picture
-
-
+Scenario: Add Objects
+  Given I am on the root view 
+  Then I touch "Add"
+  And I should see "1" on row 1
+  Then I touch "Add"
+  Then I should see "2" on row 1
+  And I should see "1" on row 2
+  Then I touch "Add"
+  Then I should see "3" on row 1
+  And I should see "2" on row 2
+  And I should see "1" on row 3

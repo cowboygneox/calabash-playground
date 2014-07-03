@@ -3,3 +3,6 @@
 xcuserdata/
 *.xccheckout
 *.bak
+*.swp
+screenshot*.png
+.irb-history
