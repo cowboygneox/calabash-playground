@@ -51,6 +51,8 @@
     [CPSimpleManagedObject newObjectInContext:self.context];
 }
 
+#pragma mark UITableViewDatasource
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.fetchedResultsController.sections[(NSUInteger) section] numberOfObjects];
 }
@@ -61,6 +63,19 @@
     cell.textLabel.text = object.index.stringValue;
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    CPSimpleManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    [self.context deleteObject:object];
+}
+
+#pragma mark UITableViewDelegate
+
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return UITableViewCellEditingStyleDelete;
+}
+
+#pragma mark NSFetchedResultsControllerDelegate
 
 - (void)controllerWillChangeContent:(NSFetchedResultsController *)controller {
     [self.tableView beginUpdates];
