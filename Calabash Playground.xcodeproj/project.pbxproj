@@ -22,6 +22,8 @@
 		144723131965914500BD9EE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
 		1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144723191965914500BD9EE1 /* InfoPlist.strings */; };
 		1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */; };
+		35CDF77DB854A92ECC202D69 /* CPCrudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */; };
+		35CDFA82393D52EAEBD8DECF /* CPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		144723181965914500BD9EE1 /* Calabash PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calabash PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		1447231A1965914500BD9EE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calabash_PlaygroundTests.m; sourceTree = "<group>"; };
+		35CDF0A0723CB58F95F39F58 /* CPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPRootViewController.h; sourceTree = "<group>"; };
+		35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCrudTableViewController.m; sourceTree = "<group>"; };
+		35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRootViewController.m; sourceTree = "<group>"; };
+		35CDF91C581B92A70ED40178 /* CPCrudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCrudTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				144723081965914500BD9EE1 /* Images.xcassets */,
 				144723051965914500BD9EE1 /* Calabash_Playground.xcdatamodeld */,
 				144722FA1965914500BD9EE1 /* Supporting Files */,
+				35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */,
+				35CDF0A0723CB58F95F39F58 /* CPRootViewController.h */,
+				35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */,
+				35CDF91C581B92A70ED40178 /* CPCrudTableViewController.h */,
 			);
 			path = "Calabash Playground";
 			sourceTree = "<group>";
@@ -252,6 +262,8 @@
 				144723071965914500BD9EE1 /* Calabash_Playground.xcdatamodeld in Sources */,
 				144723001965914500BD9EE1 /* main.m in Sources */,
 				144723041965914500BD9EE1 /* CPAppDelegate.m in Sources */,
+				35CDFA82393D52EAEBD8DECF /* CPRootViewController.m in Sources */,
+				35CDF77DB854A92ECC202D69 /* CPCrudTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
