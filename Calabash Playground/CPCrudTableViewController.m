@@ -59,6 +59,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     CPSimpleManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = object.index.stringValue;
     return cell;
