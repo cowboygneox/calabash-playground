@@ -13,3 +13,7 @@ Scenario: Add Objects
   Then I should see "3" on row 1
   And I should see "2" on row 2
   And I should see "1" on row 3
+  Then I swipe left on cell number 1
+  And I touch delete
+  Then I should see "2" on row 1
+  And I should see "1" on row 2
