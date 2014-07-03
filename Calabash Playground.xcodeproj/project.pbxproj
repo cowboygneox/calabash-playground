@@ -22,9 +22,23 @@
 		144723131965914500BD9EE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
 		1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144723191965914500BD9EE1 /* InfoPlist.strings */; };
 		1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1447231C1965914500BD9EE1 /* Calabash_PlaygroundTests.m */; };
+		1df57b3044fecd75cfbaea98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F11965914500BD9EE1 /* Foundation.framework */; };
+		2b96a1c58c0149174f4d27dc /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = c865c8cc69d33f0bf728a4ea /* CFNetwork.framework */; };
 		35CDF3ECC70B0C0DF074712F /* CPSimpleManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */; };
 		35CDF77DB854A92ECC202D69 /* CPCrudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */; };
 		35CDFA82393D52EAEBD8DECF /* CPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */; };
+		3876865f5065ae982badb0e2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144723081965914500BD9EE1 /* Images.xcassets */; };
+		3dc13d40b25d48bf065e1baf /* Calabash_Playground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 144723051965914500BD9EE1 /* Calabash_Playground.xcdatamodeld */; };
+		551a6fec80192b6be8f9c9f8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F51965914500BD9EE1 /* UIKit.framework */; };
+		795fabcd8bed22727eb85b10 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 144723031965914500BD9EE1 /* CPAppDelegate.m */; };
+		8a20133ca30531ded44a40ab /* CPSimpleManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */; };
+		99b2a8d85d9d71fbaca4242b /* CPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF4D0DFA1039B2D1E2E71 /* CPRootViewController.m */; };
+		a1dcfc442e2109e127d5550a /* CPCrudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDF2815CF508C14E58E15E /* CPCrudTableViewController.m */; };
+		baaedf611359616097d9363d /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F71965914500BD9EE1 /* CoreData.framework */; };
+		bef2806809a58f5eacd0f16c /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 144722FF1965914500BD9EE1 /* main.m */; };
+		c6e84d727139f7f122dfd152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144722FC1965914500BD9EE1 /* InfoPlist.strings */; };
+		ce3407123fc2d17136e091e2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144722F31965914500BD9EE1 /* CoreGraphics.framework */; };
+		d54096ffb3c0144842e9e828 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = c1cabc7c36b8997a1b15f0cc /* calabash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02f163e3c3d21babebf23b3e /* Calabash Playground-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calabash Playground-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144722EE1965914500BD9EE1 /* Calabash Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calabash Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144722F11965914500BD9EE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		144722F31965914500BD9EE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +77,8 @@
 		35CDF91C581B92A70ED40178 /* CPCrudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCrudTableViewController.h; sourceTree = "<group>"; };
 		35CDFAB08BB95B3E0BA6E9B8 /* CPSimpleManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSimpleManagedObject.m; sourceTree = "<group>"; };
 		35CDFB54DC574759A7CA29A7 /* CPSimpleManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSimpleManagedObject.h; sourceTree = "<group>"; };
+		c1cabc7c36b8997a1b15f0cc /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = calabash.framework; path = calabash.framework; sourceTree = "<group>"; };
+		c865c8cc69d33f0bf728a4ea /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +101,19 @@
 				144723131965914500BD9EE1 /* CoreData.framework in Frameworks */,
 				144723121965914500BD9EE1 /* UIKit.framework in Frameworks */,
 				144723111965914500BD9EE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5076a782cf52566b29487087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ce3407123fc2d17136e091e2 /* CoreGraphics.framework in Frameworks */,
+				baaedf611359616097d9363d /* CoreData.framework in Frameworks */,
+				551a6fec80192b6be8f9c9f8 /* UIKit.framework in Frameworks */,
+				1df57b3044fecd75cfbaea98 /* Foundation.framework in Frameworks */,
+				2b96a1c58c0149174f4d27dc /* CFNetwork.framework in Frameworks */,
+				d54096ffb3c0144842e9e828 /* calabash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +147,11 @@
 				144722F51965914500BD9EE1 /* UIKit.framework */,
 				144722F71965914500BD9EE1 /* CoreData.framework */,
 				1447230F1965914500BD9EE1 /* XCTest.framework */,
+				c865c8cc69d33f0bf728a4ea /* CFNetwork.framework */,
+				c1cabc7c36b8997a1b15f0cc /* calabash.framework */,
 			);
 			name = Frameworks;
+			path = "";
 			sourceTree = "<group>";
 		};
 		144722F91965914500BD9EE1 /* Calabash Playground */ = {
@@ -206,6 +239,23 @@
 			productReference = 1447230E1965914500BD9EE1 /* Calabash PlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2dd5c9d9807b5be7dd13dc7e /* Calabash Playground-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35978565597e5e6d37cf717e /* Build configuration list for PBXNativeTarget "Calabash Playground-cal" */;
+			buildPhases = (
+				f070e41cef92bb880f77c389 /* Sources */,
+				5076a782cf52566b29487087 /* Frameworks */,
+				49b6f88796c418c6ee871f2b /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calabash Playground-cal";
+			productName = "Calabash Playground-cal";
+			productReference = 02f163e3c3d21babebf23b3e /* Calabash Playground-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,6 +285,7 @@
 			targets = (
 				144722ED1965914500BD9EE1 /* Calabash Playground */,
 				1447230D1965914500BD9EE1 /* Calabash PlaygroundTests */,
+				2dd5c9d9807b5be7dd13dc7e /* Calabash Playground-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1447231B1965914500BD9EE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49b6f88796c418c6ee871f2b /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				c6e84d727139f7f122dfd152 /* InfoPlist.strings in Resources */,
+				3876865f5065ae982badb0e2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +338,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1447231D1965914500BD9EE1 /* Calabash_PlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		f070e41cef92bb880f77c389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3dc13d40b25d48bf065e1baf /* Calabash_Playground.xcdatamodeld in Sources */,
+				bef2806809a58f5eacd0f16c /* main.m in Sources */,
+				795fabcd8bed22727eb85b10 /* CPAppDelegate.m in Sources */,
+				99b2a8d85d9d71fbaca4242b /* CPRootViewController.m in Sources */,
+				a1dcfc442e2109e127d5550a /* CPCrudTableViewController.m in Sources */,
+				8a20133ca30531ded44a40ab /* CPSimpleManagedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +522,52 @@
 			};
 			name = Release;
 		};
+		8da9992724ebe80be1061a1c /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				INFOPLIST_FILE = "Calabash Playground/Calabash Playground-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		fac75f94df205df521c2a6cd /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calabash Playground/Calabash Playground-Prefix.pch";
+				INFOPLIST_FILE = "Calabash Playground/Calabash Playground-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -474,6 +593,14 @@
 			buildConfigurations = (
 				144723241965914500BD9EE1 /* Debug */,
 				144723251965914500BD9EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35978565597e5e6d37cf717e /* Build configuration list for PBXNativeTarget "Calabash Playground-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8da9992724ebe80be1061a1c /* Debug */,
+				fac75f94df205df521c2a6cd /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
