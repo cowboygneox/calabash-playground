@@ -45,10 +45,17 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                            target:self
                                                                                            action:@selector(add)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                                                                          target:self
+                                                                                          action:@selector(edit)];
 }
 
 - (void)add {
     [CPSimpleManagedObject newObjectInContext:self.context];
+}
+
+- (void)edit {
+    self.tableView.editing = !self.tableView.editing;
 }
 
 #pragma mark UITableViewDatasource

@@ -15,3 +15,7 @@ Then /^I swipe left on cell number (\d+)$/ do |index|
   swipe("left", {:query => "tableViewCell index:#{index-1}"})
   sleep(STEP_PAUSE)
 end
+
+Then(/^I edit row (\d+)$/) do |arg1|
+  touch("tableViewCell index:#{arg1.to_i - 1} descendant tableViewCellEditControl")
+end
